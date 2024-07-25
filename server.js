@@ -1,10 +1,10 @@
-import { app } from './app.js';
-import { config } from 'dotenv';
-import Razorpay from 'razorpay';
+import { app } from "./app.js";
+import { config } from "dotenv";
+import Razorpay from "razorpay";
 import mongoose from "mongoose";
 
 // Load environment variables
-config({ path: './config/config.env' });
+config({ path: "./config/config.env" });
 
 // Create an instance of Razorpay
 const instance = new Razorpay({
